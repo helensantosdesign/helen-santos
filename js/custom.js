@@ -23,18 +23,18 @@ jQuery(window)
 var cbpAnimatedHeader = (function () {
     function init() {
         "use strict";
-        window.addEventListener('scroll', function (event) {
-        }, false);
-        window.addEventListener('scroll', function (e) {
-            if ($(window)
-                    .scrollTop() > 10) {
-                $('nav')
-                        .addClass('shrink-nav');
-            } else {
-                $('nav')
-                        .removeClass('shrink-nav');
-            }
-        });
+        // window.addEventListener('scroll', function (event) {
+        // }, false);
+        // window.addEventListener('scroll', function (e) {
+        //     if ($(window)
+        //             .scrollTop() > 10) {
+        //         $('nav')
+        //                 .addClass('shrink-nav');
+        //     } else {
+        //         $('nav')
+        //                 .removeClass('shrink-nav');
+        //     }
+        // });
     }
     function scrollY() {
         return window.pageYOffset || docElem.scrollTop;
@@ -149,17 +149,17 @@ $(document).ready(function () {
             });
 
     // Shrink nav on scroll
-    $(window)
-            .scroll(function () {
-                if ($(window)
-                        .scrollTop() > 10) {
-                    $('nav')
-                            .addClass('shrink-nav');
-                } else {
-                    $('nav')
-                            .removeClass('shrink-nav');
-                }
-            });
+    // $(window)
+    //         .scroll(function () {
+    //             if ($(window)
+    //                     .scrollTop() > 10) {
+    //                 $('nav')
+    //                         .addClass('shrink-nav');
+    //             } else {
+    //                 $('nav')
+    //                         .removeClass('shrink-nav');
+    //             }
+    //         });
 
     // Mobile Toggle Control
     $('.mobile-toggle')

@@ -5,7 +5,7 @@ if(isset($_POST['email'])){
 
 	$from=$_POST["email"];
 	// Email Receiver Address
-	$receiver="marcioscp@yourdomain.com";
+	$receiver="helensantosdesign@gmail.com.com";
 	$subject="Newsletter Subscription";
 	$headers = "MIME-Version: 1.0" . "\r\n";
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";

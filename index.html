@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html class="csstransforms csstransforms3d csstransitions no-js skrollr skrollr-desktop" lang="en">
+
 <head>
     <title>Helen Santos - Designer de Sobrancelhas</title>
     <meta charset="utf-8" />
@@ -27,45 +28,47 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <!-- purple-responsive -->
     <link rel="stylesheet" type="text/css" href="css/colors/purple-responsive.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148967577-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-148967577-1');
+    </script>
+
 </head>
 
 <body>
-    <div id="fb-root"></div>
-    <script>
-(function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
     <!-- main page -->
     <div class="main purple">
         <!-- header-->
         <header id="home" data-stellar-background-ratio="0.5" class="header animated no-background">
-            <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav" role="navigation">
+            <nav class="navbar navbar-default navbar-fixed-top nav-transparent overlay-nav sticky-nav shrink-nav"
+                role="navigation">
                 <div class="container main-navigation">
                     <div class="col-md-3 float-left">
                         <a class="logo-dark" href="#home">
-                            <!--<img alt="logo-dark" src="images/logo-helen-dark.png" class="logo-dark"/>-->
-                            <h3 style="margin-bottom: 0;">HS Sobrancelhas</h3>
-                            <span>&amp; beauty</span>
+                            <img alt="logo-dark" src="images/logo2.png" class="logo-dark" />
                         </a>
                         <a class="logo-light" href="#home">
-                            <!--<img alt="logo-white" src="images/logo-helen-white.png" class="logo-white"/>-->
-                            <h3 style="margin-bottom: 0;">HS Sobrancelhas</h3>
-                            <span>&amp; beauty</span>
+                            <img alt="logo-white" src="images/logo2.png" class="logo-white" />
                         </a>
                     </div>
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle Navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-collapse"> <span class="sr-only">Toggle Navigation</span> <span
+                                class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                        </button>
                     </div>
                     <div class="col-md-9 text-left float-right collapse-navation">
                         <div class="navbar-collapse collapse navbar-inverse no-transition">
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="#about" class="inner-link">Sobre</a></li>
                                 <li><a href="#models" class="inner-link">Serviços</a></li>
-                                <!--<li><a href="#photoshots">Portifólio</a></li>-->
+                                <li><a href="#photoshots" class="inner-link">Portifólio</a></li>
                                 <li class="last"><a href="#contact" class="inner-link">Contato</a></li>
                             </ul>
                         </div>
@@ -76,12 +79,16 @@
                 <div id="carousel3" data-ride="carousel3" data-interval='false'>
                     <div class="carousel-inner">
                         <div class="item active">
-                            <div class="slider-gradient-overlay"></div>
-                            <div style="background-image:url('images/imagem1.jpg');" class="fill"></div>
+                            <div class="slider-gradient-overlay" style="background-color: #c80063; opacity: 0.4;"></div>
+                            <div class="fill" style="text-align: center; ">
+                                <video autoplay muted loop style="min-width: 100%; min-height: 100%;">
+                                    <source src="/images/home_video.mp4" type="video/mp4">
+                                </video>
+                            </div>
                             <div class="slider-text">
                                 <div class="col-md-6">
                                     <h1>Helen Santos</h1>
-                                    <span>Sobrancelhas & Beauty</span>
+                                    <span>Especialista em sobrancelhas</span>
                                 </div>
                             </div>
                         </div>
@@ -95,10 +102,16 @@
             <div class="container">
                 <div class="row border-bottom os-animation text-center" data-os-animation="fadeInUp">
                     <div class="col-md-6 col-sm-6 title-text border-right">
+                        <!-- <img src="/images/helen_santos.png" style="width: 60%;" /> -->
                         <h2 class="title">Sobre</h2>
                     </div>
                     <div class="col-md-6 col-sm-6 simple-text">
-                        <p class="description text-left">Profissional em designer de sobrancelhas formada pelo Núcleo Paulo Freitas Hair Academy (Neide Medina) e especializada no Centro Técnico Alan Spadone.</p>
+                        <p class="description text-left">
+                            Apaixonada pelo que faço, sou uma profissional de design de sobrancelhas e micropigmentação.
+                            Oferecemos atendimento personalizado para obter o melhor resultado e excelência para você.
+                            Estou sempre em busca de conhecimento e aperfeiçoamento, participando de eventos e cursos
+                            por todo o Brasil.
+                        </p>
                     </div>
                 </div>
                 <div class="row os-animation border-bottom" data-os-animation="fadeInUp">
@@ -107,9 +120,10 @@
                         <h6>Facebook</h6>
                         <p class="content">
                             Acompanhe minhas novidades e deixe sua opnião no meu Facebook.<br />
-                        <p>
-                            <a href="http://www.facebook.com/helensantosdesign" class="color-orange" target="_blank">Acesse Aqui</a>
-                        </p>
+                            <p>
+                                <a href="http://www.facebook.com/helensantosdesign" class="color-orange"
+                                    target="_blank">Acesse Aqui</a>
+                            </p>
                         </p>
                     </div>
                     <div class="col-md-3 col-sm-3 service-box fashion-service-box border-right text-center">
@@ -118,14 +132,16 @@
                         <p class="content">
                             Veja meus últimos trabalho em imagens. Sua sobrancelha pode estar aqui :)<br />
                         </p>
-                        <a href="http://www.instagram.com/hs_sobrancelhas_beauty" class="color-orange img-responsive" target="_blank">Acesse Aqui</a>
+                        <a href="https://www.instagram.com/helensantossobrancelhas/" class="color-orange img-responsive"
+                            target="_blank">Acesse Aqui</a>
                     </div>
                     <div class="col-md-3 col-sm-3 service-box fashion-service-box border-right text-center">
                         <div class="service-icon"> <i class="fa fa-whatsapp"></i> </div>
                         <h6>Whatsapp</h6>
                         <p class="content">
                             Para sua comodidade, marque seu horário ou tire suas dúvidas por Whatsapp.<br />
-                            <a href="whatsapp://send?text=&phone=+5511998892502" class="color-orange" target="_blank">(11) 99889-2502</a>
+                            <a href="whatsapp://send?text=&phone=+5511998892502" class="color-orange"
+                                target="_blank">(11) 99889-2502</a>
                         </p>
                     </div>
                     <div class="col-md-3 col-sm-3 service-box fashion-service-box text-center">
@@ -147,33 +163,37 @@
         <section id="models" class="orange-bg no-padding">
             <div class="row no-margin">
                 <div class="col-lg-6 col-md-6 col-sm-6 models-main no-padding">
-                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding"><img src="images/design-pinca.jpg" alt="" /></div>
+                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding">
+                        <img src="images/micropigmentacao.jpg" alt="" /></div>
                     <div class="col-lg-6 col-md-12 col-sm-12 models-text white-text no-padding">
-                        <h3 class="model-name">Design com Pinça</h3>
+                        <h3 class="model-name">Micropigmentação</h3>
                         <p class="margin-top"></p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 models-main no-padding">
-                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding"><img src="images/design-linha.jpg" alt="" /></div>
+                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding">
+                        <img src="images/design-pinca.jpg" alt="" /></div>
                     <div class="col-lg-6 col-md-12 col-sm-12 models-text white-text no-padding">
-                        <h3 class="model-name">Design com Linha</h3>
+                        <h3 class="model-name">Design com Pinça</h3>
                         <p class="margin-top"></p>
                     </div>
                 </div>
             </div>
             <div class="row no-margin ">
                 <div class="col-lg-6 col-md-6 col-sm-6 models-main no-padding">
-                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding float-right"><img src="images/design-henna.jpg" alt="" /></div>
+                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding float-right"><img
+                            src="images/design-linha.jpg" alt="" /></div>
                     <div class="col-lg-6 col-md-12 col-sm-12 models-text float-left white-text no-padding">
-                        <h3 class="model-name">Henna Profissional</h3>
+                        <h3 class="model-name">Design com Linha</h3>
                         <p class="margin-top"></p>
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-md-6 col-sm-6 models-main no-padding">
-                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding float-right"><img src="images/depilacao-facial.jpg" alt="" /></div>
+                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding float-right"><img
+                            src="images/design-henna.jpg" alt="" /></div>
                     <div class="col-lg-6 col-md-12 col-sm-12 models-text white-text float-left no-padding">
-                        <h3 class="model-name">Depilação Facial</h3>
+                        <h3 class="model-name">Henna Profissional</h3>
                         <p class="margin-top"></p>
                     </div>
                 </div>
@@ -181,16 +201,18 @@
             </div>
             <div class="row no-margin">
                 <div class="col-lg-6 col-md-6 col-sm-6 models-main no-padding">
-                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding"><img src="images/limpeza-pele.jpg" alt="" /></div>
+                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding">
+                        <img src="images/depilacao-facial.jpg" alt="" /></div>
                     <div class="col-lg-6 col-md-12 col-sm-12 models-text white-text no-padding">
-                        <h3 class="model-name">Limpeza de Pele</h3>
+                        <h3 class="model-name">Depilação Facial</h3>
                         <p class="margin-top"></p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 models-main no-padding">
-                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding"><img src="images/extensao-cilios.jpg" alt="" /></div>
+                    <div class="models-photo col-lg-6 col-md-12 col-sm-12 no-padding"><img
+                            src="images/extensao-cilios.jpg" alt="" /></div>
                     <div class="col-lg-6 col-md-12 col-sm-12 models-text white-text no-padding">
-                        <h3 class="model-name">Permanente e Extensão de Cílios</h3>
+                        <h3 class="model-name">Lash Lifting</h3>
                         <p class="margin-top"></p>
                     </div>
                 </div>
@@ -198,7 +220,7 @@
         </section>
         <!-- models end -->
         <!-- photoshots -->
-        <!--<section id="photoshots" class="photoshots gray-bg">
+        <section id="photoshots" class="photoshots gray-bg">
             <div class="row no-margin">
                 <div class="container">
                     <div data-os-animation="fadeInUp" class="row os-animation text-center animated fadeInUp">
@@ -214,52 +236,72 @@
                     <div class="gallery">
                         <ul class="thumbnails">
                             <li class="span3">
-                                <a data-rel="lightbox[group]" href="images/sobrancelha1.png"><img class="group1" src="images/sobrancelha1.png" alt="" /></a>
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_1.JPG"><img class="group1"
+                                        src="images/new/portifolio_1.JPG" alt="" /></a>
                             </li>
                             <li class="span3">
-                                <a data-rel="lightbox[group]" href="images/sobrancelha9.png"><img class="group1" src="images/sobrancelha9.png" alt="" /></a>
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_2.JPG"><img class="group1"
+                                        src="images/new/portifolio_2.JPG" alt="" /></a>
                             </li>
                             <li class="span3">
-                                <a data-rel="lightbox[group]" href="images/sobrancelha3.png"><img class="group1" src="images/sobrancelha3.png" alt="" /></a>
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_3.jpeg"><img class="group1"
+                                        src="images/new/portifolio_3.jpeg" alt="" /></a>
                             </li>
                             <li class="span3">
-                                <a data-rel="lightbox[group]" href="images/sobrancelha4.png"><img class="group1" src="images/sobrancelha4.png" alt="" /></a>
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_15.jpeg"><img class="group1"
+                                        src="images/new/portifolio_15.jpeg" alt="" /></a>
                             </li>
                             <li class="span3">
-                                <a data-rel="lightbox[group]" href="images/sobrancelha5.png"><img class="group1" src="images/sobrancelha5.png" alt="" /></a>
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_4.jpeg"><img class="group1"
+                                        src="images/new/portifolio_4.jpeg" alt="" /></a>
                             </li>
                             <li class="span3">
-                                <a data-rel="lightbox[group]" href="images/sobrancelha6.png"><img class="group1" src="images/sobrancelha6.png" alt="" /></a>
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_5.jpeg"><img class="group1"
+                                        src="images/new/portifolio_5.jpeg" alt="" /></a>
                             </li>
                             <li class="span3">
-                                <a data-rel="lightbox[group]" href="images/sobrancelha7.png"><img class="group1" src="images/sobrancelha7.png" alt="" /></a>
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_6.jpeg"><img class="group1"
+                                        src="images/new/portifolio_6.jpeg" alt="" /></a>
                             </li>
                             <li class="span3">
-                                <a data-rel="lightbox[group]" href="images/sobrancelha8.png"><img class="group1" src="images/sobrancelha8.png" alt="" /></a>
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_14.jpeg"><img class="group1"
+                                        src="images/new/portifolio_14.jpeg" alt="" /></a>
                             </li>
                             <li class="span3">
-                                <a data-rel="lightbox[group]" href="images/sobrancelha2.png"><img class="group1" src="images/sobrancelha2.png" alt="" /></a>
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_7.jpeg"><img class="group1"
+                                        src="images/new/portifolio_7.jpeg" alt="" /></a>
                             </li>
                             <li class="span3">
-                                <a data-rel="lightbox[group]" href="images/sobrancelha10.png"><img class="group1" src="images/sobrancelha10.png" alt="" /></a>
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_8.jpeg"><img class="group1"
+                                        src="images/new/portifolio_8.jpeg" alt="" /></a>
+                            </li>
+                            <li class="span3">
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_9.jpeg"><img class="group1"
+                                        src="images/new/portifolio_9.jpeg" alt="" /></a>
+                            </li>
+                            <li class="span3">
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_10.jpeg"><img class="group1"
+                                        src="images/new/portifolio_10.jpeg" alt="" /></a>
+                            </li>
+                            <li class="span3">
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_11.jpeg"><img class="group1"
+                                        src="images/new/portifolio_11.jpeg" alt="" /></a>
+                            </li>
+                            <li class="span3">
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_12.jpeg"><img class="group1"
+                                        src="images/new/portifolio_12.jpeg" alt="" /></a>
+                            </li>
+                            <li class="span3">
+                                <a data-rel="lightbox[group]" href="images/new/portifolio_13.jpeg"><img class="group1"
+                                        src="images/new/portifolio_13.jpeg" alt="" /></a>
                             </li>
                             <!--end thumb -->
-        <!--</ul>-->
-        <!--end thumbnails -->
-        <!--</div>
-                    <div class="background-white">
-                        <div class="col-md-12">
-                            <h3>Deixe seu comentário :)</h3>
-                        </div>
-                            <div class="fb-comments"
-                                 data-href="http://www.helensantos.com.br"
-                                 data-numposts="10"
-                                 data-width="100%"
-                                 data-colorscheme="light"></div>
-                </div>
+                        </ul>
+                        <!--end thumbnails -->
+                    </div>
                 </div>
             </div>
-        </section-->
+        </section>
         <!-- photoshots end -->
         <!-- contact -->
         <section id="contact" class="contact light-gray-bg">
@@ -269,7 +311,12 @@
                         <h2 class="title">Contato</h2>
                     </div>
                     <div class="col-md-6 col-sm-6 simple-text">
-                        <p class="description text-left"><b>Entre em contato e agende seu horário :)</b></p>
+                        <p class="description text-left">
+                            <b>Agende seu horário =)</b>
+                            <br /><br />
+                            <a href="whatsapp://send?text=&phone=+5511998892502" style="color:red">CLIQUE AQUI PARA
+                                AGENDAR</a>
+                        </p>
                     </div>
                 </div>
                 <div class="row contact-info os-animation" data-os-animation="fadeInUp">
@@ -277,35 +324,30 @@
                         <div class="head">
                             <span class="contact-title">Atendimento</span>
                             <p class="content contact-text">
-                                De Terça à Sexta das 9h às 19h.<br />
-                                Sábado das 9h30 às 14h<br />
-                                <b>Agende seu horário!</b>
+                                Somente com agendamento
                             </p>
                         </div>
                         <ul class="icon-list">
                             <li class="divider"></li>
-                            <li>
-                                <i class="fa fa-map-marker"></i>Localização: Rua Dr. Olavo Guimarães, 191 - Vila Arens, Jundiaí - SP<br />
-                                <div class="col-md-12">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.2675569836133!2d-46.8774000498435!3d-23.196917984790765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf26c499911ac3%3A0xf942e42a5ec7a64a!2sI+-+Av.+Dr.+Olavo+Guimar%C3%A3es%2C+191+-+Vila+Arens%2C+Jundia%C3%AD+-+SP%2C+13201-760!5e0!3m2!1spt-BR!2sbr!4v1548850458892" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-                                </div>
-                            </li>
-
-                            <li><i class="fa fa-mobile"></i>&nbsp;Cel: <a href="tel:11998892502">(11) 99889-2502</a></li>
-                            <li class="divider"></li>
-                            <li><i class="fa fa-envelope-o"></i><a href="mailto:helensantos.beauty@gmail.com">helensantos.beauty@gmail.com</a></li>
+                            <li><i class="fa fa-phone-square" aria-hidden="true"></i><a href="tel:11998892502">(11)
+                                    99889-2502</a></li>
+                            <li><i class="fa fa-envelope-o"></i><a
+                                    href="mailto:helensantos.beauty@gmail.com">helensantos.beauty@gmail.com</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-sm-6 right-part">
-                        <div class="form-group">
-                            <form action="javascript:void(0)" method="post">
-                                <input class="form-control" name="name" placeholder="Seu Nome" type="text">
-                                <input class="form-control" name="email" placeholder="Seu E-mail" type="text">
-                                <textarea class="form-control" placeholder="Seu Comentário" name="comment"></textarea>
-                                <button id="submit-button" class="small-button text-left">Enviar Mensagem</button>
-                            </form>
-                        </div>
-                        <div id="success"></div>
+                        <ul class="icon-list">
+                            <li>
+                                <i class="fa fa-map-marker"></i>Localização: Rua Dr. Olavo Guimarães, 191 - Vila Arens,
+                                Jundiaí - SP<br />
+                                <div class="col-md-12">
+                                    <iframe style="height: 250px;"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.2675569836133!2d-46.8774000498435!3d-23.196917984790765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf26c499911ac3%3A0xf942e42a5ec7a64a!2sI+-+Av.+Dr.+Olavo+Guimar%C3%A3es%2C+191+-+Vila+Arens%2C+Jundia%C3%AD+-+SP%2C+13201-760!5e0!3m2!1spt-BR!2sbr!4v1548850458892"
+                                        width="500" height="500" frameborder="0" style="border:0"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -360,4 +402,5 @@
         });
     </script>
 </body>
+
 </html>

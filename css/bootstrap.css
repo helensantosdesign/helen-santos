@@ -693,7 +693,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
   .navbar-collapse.in { overflow-y: visible; }
   .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { padding-right: 0; padding-left: 0; }
 }
-.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { max-height: 100%; padding-top: 10px; }
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { max-height: 100%; padding-top: 20px; }
 @media (max-width: 480px) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { max-height: 200px; } 
 }
