@@ -127,7 +127,7 @@ span.title { font-family: 'Oswald', sans-serif; font-size: 35px; font-weight: 30
 .light-gray-bg {
     background-color: #eeeeee;
 }
-.orange-bg { background-color: #f96015; }
+.orange-bg { background-color: #000; }
 .black-bg { background-color: #000000; }
 .white-bg { background-color: #ffffff; }
 .red-bg { background-color: #d52124; }
