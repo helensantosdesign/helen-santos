@@ -591,8 +591,36 @@ span.nav-close:before { content: "X"; font-family: 'Open Sans', sans-serif; tran
 16. Scroll To Top
 ========================================================================== */
 
-.scrollToTop { display: none; font-weight: bold; height: auto; padding: 0; position: fixed; right: 45px; text-align: center; text-decoration: none; top: 91%; width: auto; background-color: #161616; z-index: 9999; border-radius: 3px; border: 1px solid #000 }
-.scrollToTop i { font-size: 18px; margin: 5px 8px 0; color: #FFF; }
+.scrollToTop {     
+  font-weight: bold;
+  height: auto;
+  padding: 0;
+  position: fixed;
+  right: 45px;
+  text-align: center;
+  text-decoration: none;
+  top: 91%;
+  width: auto;
+  z-index: 9999;
+  border-radius: 3px;
+  display: flex !important;
+  align-items: center;
+  background-color: white;
+  border-radius: 5%;
+  padding: 2px 4px 8px 15px;
+}
+.scrollToTop i {     
+  font-size: 36px;
+  margin: 5px 8px 0;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #25d366;
+  padding: 5px 8px 5px 8px;
+  text-align: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 .scrollToTop:hover { opacity: 0.5; }
 .scrollToTop:hover i { position: relative; }
 .scrollDownWrap { bottom: 40px; left: 0; margin: 0 auto; min-height: 41px; position: absolute; right: 0; text-align: center; width: 90px; z-index: 9; }
